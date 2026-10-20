@@ -123,6 +123,10 @@ a:hover { text-decoration-thickness: 0.14em; }
 }
 .logo .w1 { color: #ffffff; }
 .logo .w2 { color: var(--gold); margin-top: 0.04em; }
+.hero .pile {
+  display: block; width: 100%; max-width: 560px; height: auto; margin: 22px auto 0;
+  border-radius: 28px; box-shadow: var(--card-shadow);
+}
 .pitch { text-wrap: balance; font-size: clamp(1.15rem, 4.6vw, 1.45rem); font-weight: 600; max-width: 34ch; margin: 22px auto 6px; }
 .subpitch { text-wrap: balance; color: var(--muted); margin: 0 auto 22px; max-width: 46ch; }
 
